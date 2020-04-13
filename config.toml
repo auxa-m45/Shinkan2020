@@ -1,3 +1,29 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://gohugo.io/"
+author = "Anti-Aging Record"
+paginate = 3
+languageCode = "ja"
+DefaultContentLanguage = "ja"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+# Above are configs from hugoBasicExample
+
+title = "AAR 2020新歓特設サイト"
+theme = "hugo-primer"
+hasCJKLanguage = true
+summaryLength = 70
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+googleAnalytics = ""
+disqusShortname=""
+copyright = "&copy;Anti-Aging Record 2009-2020"
+
+[params]
+description = "Anti-Aging Record 2020新歓特設サイト"
+twitter = "antiagingrecord"
+useIcon = true 
+useTwitterCard = true
+# exampleSite must not have js share widget: #36
+# shareTo = ["Twitter", "Hatena", "Facebook", "Pocket"]
+shareTo = ["Twitter"]
+showFooterCredits = true
+math = true
