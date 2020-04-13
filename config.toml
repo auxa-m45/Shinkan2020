@@ -27,3 +27,6 @@ useTwitterCard = true
 shareTo = ["Twitter"]
 showFooterCredits = true
 math = true
+
+[taxonomies]
+author = "authors"

@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<h1 style="margin-top: 24px!important;">{{ .Params.name }}</h1>
+{{ .Render "avatar" }}
+
+<h2>Bio</h2>
+{{ .Content }}
+
+<h2>Articles</h2>
+{{ range .Data.Pages }}
+  {{ .Render "article" }}
+{{ end }}
+
+{{ end }}

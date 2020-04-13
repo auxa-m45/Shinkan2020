@@ -38,6 +38,6 @@ Hugo ships with several [Built-in Shortcodes](https://gohugo.io/content-manageme
 
 ---
 
-## Vimeo Simple Shortcode
+## soundcloud Shortcode
 
-{{< vimeo_simple 48912912 >}}
+{{< soundcloud 765689299 >}}

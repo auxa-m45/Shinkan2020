@@ -1,0 +1,20 @@
+<figure class="author-card">
+  <div class="rounded-2 box-shadow-medium px-3 pb-2 pt-2 mb-3">
+    <div class="Subhead mb-2">
+      <img class="avatar-img  px-2" src="{{ .Params.avatar }}" alt="" />
+      <div class="Subhead-heading pt-5">
+        <a href="{{ .Permalink }}">
+          <div class="h2 mt-1 mb-1">{{ .Params.name }}</div>
+        </a>
+      </div>
+    </div>
+    <div class="text-gray">
+      <p>
+        {{ .Summary }}
+      </p>
+      <a href="{{ .Permalink }}" class="block-link">
+        More about {{ .Params.name }}
+      </a>
+    </div>
+  </div>
+</figure>
