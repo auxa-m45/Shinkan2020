@@ -13,7 +13,7 @@ git clone https://github.com/auxa-m45/Shinkan2020.git
 ```
 
 ### 編集したあとアップロードする
-* `git Add -A`
+* `git add -A`
     プロジェクト内の全部のファイルをステージ(アップロードする変更をまとめておくところ)に登録する
 
 * `git commit -m "変更内容を簡潔に"`
@@ -22,7 +22,7 @@ git clone https://github.com/auxa-m45/Shinkan2020.git
     手元のコミットをpush(サーバーにアップロード)する
 
 ```sh
-git Add -A
+git add -A
 git commit -m "変更内容を簡潔に"
 git push origin master
 ```
