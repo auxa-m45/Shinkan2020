@@ -35,6 +35,7 @@ tags: ["メンバー"]
 ## メンバー
  ### [Akito](https://twitter.com/DJ__Akito)  
  [song](URL)
+{{<soundcloud 786873895>}}
 
 
  ### [as key_](https://twitter.com/yuki19990110)  

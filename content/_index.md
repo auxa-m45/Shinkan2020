@@ -7,7 +7,7 @@ weight: 1
 
 ## 新型コロナウイルスに対する対応
 弊サークルでは名古屋大学からの通達に従い，3月より当面の間部会等の活動の一部を制限しております．
-（http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf）
+[http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf](http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf)
 
 現在はLINE・Discordを用いたオンライン部会にて活動を行なっております．入部も受け付けておりますので，気になる方は是非下の連絡フォームよりご連絡ください．
 
