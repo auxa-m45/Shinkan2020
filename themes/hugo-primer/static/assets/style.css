@@ -7,6 +7,7 @@ body {
   height: 100%;
 }
 
+
 #holy {
   display: grid;
   /* auto: as wide as its content
@@ -84,6 +85,25 @@ aside {
 #toc li {
   margin-top: 0.3rem;
 }
+.author-card-content{
+  float: left;
+  background-color: azure;
+}
+.author-card{
+  display: block;
+}
+.avatar-img {
+  margin: 20px;
+  float: left;
+  border-radius: 50%;
+  width : 75px;
+  height: 75px;
+  background-color: azure;
+}
+/* 
+.markdown-body p{
+  line-height: 1.8em!important;
+} */
 
 @media screen and (max-width: 1012px) {
   #holy {

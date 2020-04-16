@@ -31,7 +31,6 @@
   <section class="pb-6 mb-3 border-bottom">
     {{ .Content }}
   </section>
-
   <section>
     {{ if (default true .Params.comments) }}
       {{ template "_internal/disqus.html" . }}

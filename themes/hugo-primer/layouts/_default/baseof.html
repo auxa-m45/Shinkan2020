@@ -72,9 +72,24 @@
       </div>
     </div>
 
+    {{ if .HasShortcode "bandcamp"}}
+    <script>
+        function bc_defer() {
+          var iframes = document.querySelectorAll('.embed-bc');
+          iframes.forEach(function(iframe){
+            if(iframe.getAttribute('data-src')) {
+              iframe.setAttribute('src',iframe.getAttribute('data-src'));
+            }
+          });
+        }
+        window.addEventListener('load', bc_defer);
+      </script>
+    {{end}}
+
     {{ if or .Params.math ( default true .Site.Params.math ) }}
     <!-- Scripts -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script defer src="{{ `fontawesome/all.min.js` | relURL }}"></script>
     <!-- MathJax -->
     <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
     {{ end }}
