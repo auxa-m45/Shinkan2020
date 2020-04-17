@@ -129,7 +129,7 @@ tags: ["メンバー"]
  [hiphop kanon](https://antiagingrec.bandcamp.com/track/hiphop-kanon)
  {{<bandcamp album="2930736149" track="2063480211" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="hiphop kanon">}}
 
-### 北村　緑 {{<twicon midori_nv>}}  
+### 北村 緑 {{<twicon midori_nv>}}  
  [知育菓子](https://antiagingrec.bandcamp.com/track/--12)
  {{<bandcamp album="4101696388" track="750335809/" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle="知育菓子">}}
 
