@@ -63,5 +63,6 @@ AARで作っているCDに曲を提供した部員がいます。
 
 [「DAWについて」]({{<relref "dawintroduction.md>"}})に続きます！
 
+
 [^1]: 楽器や歌の録音、音質の向上のために使うもの
-[^2]: Medly, Garage Band, Auxy など経験者がいます
+[^2]: Medly、GarageBand、Auxyなど経験者がいます
