@@ -16,6 +16,7 @@ pygmentsUseClasses = true
 googleAnalytics = ""
 disqusShortname=""
 copyright = "&copy;Anti-Aging Record 2009-2020"
+sectionPagesMenu = "main"
 
 [params]
 description = "Anti-Aging Record 2020新歓特設サイト"
@@ -30,3 +31,5 @@ math = true
 
 [taxonomies]
 author = "authors"
+tags = "tags"
+categories = "categories"

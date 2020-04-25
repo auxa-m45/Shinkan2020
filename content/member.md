@@ -2,7 +2,7 @@
 title: "メンバー"
 type: "top"
 menu: "main"
-weight: 3
+weight: 4
 date : "2020-04-12"
 author: "じお(GEO)"
 tags: ["メンバー"]

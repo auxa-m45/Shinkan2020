@@ -2,24 +2,25 @@
 html,
 body {
   height: 100%;
-
 }
 .h-100 {
   height: 100%;
 }
-h1,h2,h3,h4,h5{
-
-    clear: both;
-  
+h1,
+h2,
+h3,
+h4,
+h5 {
+  clear: both;
 }
-.w-30{
-  width:30%;
+.w-30 {
+  width: 30%;
 }
-.w-15{
-  width:30%;
+.w-15 {
+  width: 30%;
 }
-.h-300px{
-  height:300px;
+.h-300px {
+  height: 300px;
 }
 /* .h-300px img{
   height:100%;
@@ -28,29 +29,28 @@ h1,h2,h3,h4,h5{
 
 figure img {
   border-radius: 5px;
-  
 }
-figure{
-  margin:0;
-  padding:0;
-  height:fit-content;
+figure {
+  margin: 0;
+  padding: 0;
+  height: fit-content;
 }
 
-.fig-block{
+.fig-block {
   display: block;
   float: left;
   border: solid 0.7px lightgray;
   margin: 15px;
   padding: 0.25em;
 }
-.fig-block img{
-margin: 0;
-max-height:100%;
+.fig-block img {
+  margin: 0;
+  max-height: 100%;
 }
-.fig-block figcaption{
+.fig-block figcaption {
   text-align: center;
 }
-.fig-resizebox{
+.fig-resizebox {
   float: right;
   border-radius: 2px;
   padding: 0.5em;
@@ -63,26 +63,25 @@ max-height:100%;
   /* margin: 0.5em 1.4em; */
 }
 
-.fig-resizebox figcaption{
+.fig-resizebox figcaption {
   text-align: center;
   background-color: #f6f8fa;
-  margin:0;
+  margin: 0;
 }
 
-.magnify{
+.magnify {
   display: block;
-  float:right;
-  height:10px;
-  margin:0;
+  float: right;
+  height: 10px;
+  margin: 0;
   position: relative;
   /* font-size: 6px; */
 }
 .fig-resizebox figcaption * {
   margin: 0;
-  }
+}
 
 .fig-right {
-  
   /* padding: 2rem; */
   border-radius: 2px;
   float: right;
@@ -91,14 +90,14 @@ max-height:100%;
   margin: 0.5em 0 1.3em 1.4em;
   padding: 0.25em;
 }
-.fig-right figcaption{
+.fig-right figcaption {
   text-align: center;
   background-color: #f6f8fa;
-  margin:0;
+  margin: 0;
   padding: 0.5em;
 }
 .fig-right figcaption * {
-margin: 0;
+  margin: 0;
 }
 #holy {
   display: grid;
@@ -184,6 +183,7 @@ aside {
 .author-card {
   display: block;
 }
+
 .avatar-img {
   margin: 20px;
   float: left;
@@ -196,7 +196,14 @@ aside {
 .markdown-body p{
   line-height: 1.8em!important;
 } */
-
+.UnderlineNav {
+  background: #303f9f;
+  color: white;
+}
+.UnderlineNav * {
+  /* background: #303f9f; */
+  color: white;
+}
 @media screen and (max-width: 1012px) {
   #holy {
     display: block;

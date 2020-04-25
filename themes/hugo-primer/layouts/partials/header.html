@@ -1,8 +1,11 @@
-<nav class="UnderlineNav UnderlineNav--right px-2">
-  <a class="UnderlineNav-actions muted-link h2" href="{{ .Site.BaseURL }}">
+<!-- <nav class="UnderlineNav UnderlineNav--right px-2">
+  <a class="UnderlineNav-actions  h2" href="{{ .Site.BaseURL }}">
     {{ .Site.Title }}
   </a>
-
+  <input type="checkbox" class="Navbar-Checkbox">
+  <div class="MobileNav">
+    <span></span>
+  </div>
   {{ $currentPage := . }}
   {{ with .Site.Menus.main }}
   <div class="UnderlineNav-body">
@@ -22,7 +25,6 @@
       </div>
     </div>
     {{ else }}
-    <!-- .URL -->
     <a class="UnderlineNav-item {{ if $currentPage.IsMenuCurrent "main" . }}selected{{ end }}" href="{{ .URL }}">
       {{ .Pre }}
       <span>{{ .Name }}</span>
@@ -31,4 +33,49 @@
     {{ end }}
   </div>
   {{ end }}
+</nav>
+-->
+<nav class="luxbar-static">
+
+  <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+  <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-indigo">
+    <ul class="luxbar-navigation">
+      <li class="luxbar-header">
+        <a class="luxbar-brand" href="{{ .Site.BaseURL }}">
+        {{ .Site.Title }}
+        </a>
+        <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+        </li>
+        {{ $currentPage := . }}
+  {{ with .Site.Menus.main }}
+    {{ range sort . }}
+    {{ if .HasChildren }}
+    <li class="luxbar-item dropdown" >
+      <!-- {{ .Pre }} -->
+      <a href="">{{ .Name }}</a>
+        <ul>
+        {{ range .Children }}
+        <li class="luxbar-item">
+          <a href="{{ .RelPermalink }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+        </ul>
+      </li>
+    </li>
+    {{ else }}
+    <!-- .URL -->
+    <li class="luxbar-item">
+    <a href="{{ .URL }}">
+{{ .Name }}
+    </a>
+    </li>
+
+    {{ end }}
+    {{ end }}
+  </ul>
+  {{ end }}
+    </div>
 </nav>
