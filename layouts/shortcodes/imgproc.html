@@ -1,9 +1,3 @@
-<!-- Load fontawesome only once per page -->
-{{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
-  {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
-  <script defer src="/static/fontawesome/all.min.js"></script>
-{{ end }}
-
 {{ $original := .Page.Resources.GetMatch (.Get "src") }}
 {{ $mode := default "Resize" (.Get "mode")}}
 {{ $size := default "200x" (.Get "size")}}
@@ -24,7 +18,7 @@
        height="{{ $image.Height }}">
     </a>
   <figcaption>
-    <i class="magnify fas fa-search-plus"></i>
+    <!-- <i class="magnify fas fa-search-plus"></i> -->
     <h4>
       {{ with .Inner }}
       {{ . }}

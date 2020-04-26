@@ -1,5 +1,4 @@
 ---
-identifier: ""
 title: "ようこそ"
 type: "top"
 menu: "main"

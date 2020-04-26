@@ -157,12 +157,15 @@ aside {
   min-width: 160px;
   z-index: 1;
 }
-
+.markdown-body{
+  color:#333;
+}
 /* TOC */
 #toc {
-  margin-top: 1.5rem;
+  margin-top: 64px;
   padding: 0.7rem;
 }
+
 #toc * {
   list-style: none;
   display: block;
@@ -204,6 +207,9 @@ aside {
   /* background: #303f9f; */
   color: white;
 }
+
+
+
 @media screen and (max-width: 1012px) {
   #holy {
     display: block;

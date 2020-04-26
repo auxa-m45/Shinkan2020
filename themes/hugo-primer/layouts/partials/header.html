@@ -1,42 +1,5 @@
-<!-- <nav class="UnderlineNav UnderlineNav--right px-2">
-  <a class="UnderlineNav-actions  h2" href="{{ .Site.BaseURL }}">
-    {{ .Site.Title }}
-  </a>
-  <input type="checkbox" class="Navbar-Checkbox">
-  <div class="MobileNav">
-    <span></span>
-  </div>
-  {{ $currentPage := . }}
-  {{ with .Site.Menus.main }}
-  <div class="UnderlineNav-body">
-    {{ range sort . }}
-    {{ if .HasChildren }}
-    <div class="flex-column position-relative dropdown" >
-      {{ .Pre }}
-      <span class="UnderlineNav-item {{ if $currentPage.HasMenuCurrent "main" . }}selected{{ end }}">{{ .Name }}</span>
-      <div class="Box Box--condensed position-absolute dropdown-content ">
-        {{ range .Children }}
-        <div class="Box-body" style="">
-          <a href="{{ .RelPermalink }}">
-            {{ .Name }}
-          </a>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-    {{ else }}
-    <a class="UnderlineNav-item {{ if $currentPage.IsMenuCurrent "main" . }}selected{{ end }}" href="{{ .URL }}">
-      {{ .Pre }}
-      <span>{{ .Name }}</span>
-    </a>
-    {{ end }}
-    {{ end }}
-  </div>
-  {{ end }}
-</nav>
--->
-<nav class="luxbar-static">
 
+<nav class="luxbar-fixed">
   <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
   <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-indigo">
     <ul class="luxbar-navigation">
@@ -48,16 +11,15 @@
                 id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
         </li>
         {{ $currentPage := . }}
-  {{ with .Site.Menus.main }}
-    {{ range sort . }}
+  {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
-    <li class="luxbar-item dropdown" >
-      <!-- {{ .Pre }} -->
-      <a href="">{{ .Name }}</a>
+    <li class="luxbar-item dropdown {{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}" >
+     
+      <a href="{{ .URL }}"> {{ .Pre }}{{ .Name }}</a>
         <ul>
         {{ range .Children }}
-        <li class="luxbar-item">
-          <a href="{{ .RelPermalink }}">
+        <li class="luxbar-item {{ if $currentPage.IsMenuCurrent "main" . }} active {{ end }}">
+          <a href="{{ .URL }}">
             {{ .Name }}
           </a>
         </li>
@@ -67,15 +29,16 @@
     </li>
     {{ else }}
     <!-- .URL -->
-    <li class="luxbar-item">
-    <a href="{{ .URL }}">
-{{ .Name }}
+    <li class="luxbar-item {{ if $currentPage.IsMenuCurrent "main" . }} active {{ end }}">
+      <a href="{{ .URL }}">
+        {{ .Pre }} {{ .Name }}
     </a>
     </li>
 
     {{ end }}
     {{ end }}
   </ul>
-  {{ end }}
+
     </div>
 </nav>
+<div class="luxbar-fixed-dummy"></div>
