@@ -39,7 +39,7 @@
     <meta name="twitter:image" content="{{ .Site.BaseURL }}twitter-card.png">
     {{ end }}
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
     <link rel="stylesheet" href="{{ `assets/syntax.css` | relURL }}">
     <link rel="stylesheet" href="{{ `assets/primer-build.css` | relURL }}">
     <link rel="stylesheet" href="{{ `assets/style.css` | relURL }}">
@@ -88,8 +88,15 @@
 
     {{ if or .Params.math ( default true .Site.Params.math ) }}
     <!-- Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script defer src="{{ `fontawesome/all.min.js` | relURL }}"></script>
+    <!-- <script defer src="{{ `fontawesome/all.min.js` | relURL }}"></script> -->
+    <script type="text/javascript" >const luminousTrigger = document.querySelectorAll('.luminous');
+    //  const luminousTriggerDataArray = [].map.call(luminousTriggerData, (element) => { return element; });
+    //   const luminousTrigger =  luminousTriggerDataArray.filter((x, i, self) => self.indexOf(x) === i);
+      if( luminousTrigger !== null ) {
+        new LuminousGallery(luminousTrigger);
+      }</script>
     <!-- MathJax -->
     <script type="text/x-mathjax-config">MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });</script>
     {{ end }}

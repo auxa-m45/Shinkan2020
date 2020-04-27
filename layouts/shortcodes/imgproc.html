@@ -1,0 +1,41 @@
+<!-- Load fontawesome only once per page -->
+{{ if not (.Page.Scratch.Get "fontawesomeLoaded") }}
+  {{ .Page.Scratch.Set "fontawesomeLoaded" true }}
+  <script defer src="/static/fontawesome/all.min.js"></script>
+{{ end }}
+
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
+{{ $mode := default "Resize" (.Get "mode")}}
+{{ $size := default "200x" (.Get "size")}}
+{{ $title := default $original.Name (.Get "title") }}
+{{ if eq $mode "Fit"}}
+{{    .Scratch.Set "image" ($original.Fit $size) }}
+{{ else if eq $mode "Resize"}}
+{{    .Scratch.Set "image" ($original.Resize $size) }}
+{{ else if eq $mode "Fill"}}
+{{    .Scratch.Set "image" ($original.Fill $size) }}
+{{ else }}
+{{    errorf "Invalid image processing mode: Must be one of Fit, Fill or Resize."}}
+{{ end }}
+{{ $image := .Scratch.Get "image" }}
+<figure class="fig-resizebox" style="width: {{ add $image.Width 3 }}px;">
+    <a href="{{ $original.RelPermalink }}" class="luminous" style="text-decoration: none;">
+  <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}"
+       height="{{ $image.Height }}">
+    </a>
+  <figcaption>
+    <i class="magnify fas fa-search-plus"></i>
+    <h4>
+      {{ with .Inner }}
+      {{ . }}
+      {{ else }}
+      {{ $title }}
+      {{ end }}
+    </h4>
+    
+    <small>
+
+    </small>
+
+  </figcaption>
+</figure>
