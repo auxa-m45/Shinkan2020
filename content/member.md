@@ -1,8 +1,8 @@
 ---
 title: "メンバー"
+name: "member"
 type: "top"
-menu: "main"
-weight: 3
+weight: 4
 date : "2020-04-12"
 author: "じお(GEO)"
 tags: ["メンバー"]
@@ -11,7 +11,7 @@ tags: ["メンバー"]
 
 現在活動中のメンバー  
  代表的作品
-
+menu: "main"
 ## 代表
 ### Beqqor(き～ちゃん) {{<twicon mrcl_drm0224>}}  
  [Awesomacaroon!!](https://antiagingrec.bandcamp.com/track/awesomacaroon)
