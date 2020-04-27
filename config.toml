@@ -16,6 +16,7 @@ pygmentsUseClasses = true
 googleAnalytics = ""
 disqusShortname=""
 copyright = "&copy;Anti-Aging Record 2009-2020"
+sectionPagesMenu = "main"
 
 [params]
 description = "Anti-Aging Record 2020新歓特設サイト"
@@ -30,3 +31,39 @@ math = true
 
 [taxonomies]
 author = "authors"
+tags = "tags"
+categories = "categories"
+
+[menu]
+    [[menu.main]]
+        identifier = "activity"
+        name = "活動紹介"
+        pre = "<i class='fas fa-info-circle'></i>"
+        url = "/activity/"
+
+    [[menu.main]]
+        identifier = "remixcompilation"
+        name = "Remixコンピ"
+        url = "/remixcompilation/"
+
+    [[menu.main]]
+        identifier = "member"
+        name = "メンバー"
+        pre = "<i class='fas fa-users'></i>"
+        url = "/member/"
+
+    [[menu.main]]
+        identifier = "kouza"
+        name = "初めてのDTM"
+        url = "/kouza/"
+        hasChildren = true
+
+    [[menu.main]]
+        parent = "kouza"
+        name = "DAWについて"
+        url = "/kouza/dawintroduction"
+
+    [[menu.main]]
+        parent = "kouza"
+        name = "DTMについて"
+        url = "/kouza/dtmintroduction"

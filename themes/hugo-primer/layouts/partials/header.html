@@ -1,34 +1,44 @@
-<nav class="UnderlineNav UnderlineNav--right px-2">
-  <a class="UnderlineNav-actions muted-link h2" href="{{ .Site.BaseURL }}">
-    {{ .Site.Title }}
-  </a>
 
-  {{ $currentPage := . }}
-  {{ with .Site.Menus.main }}
-  <div class="UnderlineNav-body">
-    {{ range sort . }}
+<nav class="luxbar-fixed">
+  <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+  <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-indigo">
+    <ul class="luxbar-navigation">
+      <li class="luxbar-header">
+        <a class="luxbar-brand" href="{{ .Site.BaseURL }}">
+        {{ .Site.Title }}
+        </a>
+        <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+        </li>
+        {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
-    <div class="flex-column position-relative dropdown" >
-      {{ .Pre }}
-      <span class="UnderlineNav-item {{ if $currentPage.HasMenuCurrent "main" . }}selected{{ end }}">{{ .Name }}</span>
-      <div class="Box Box--condensed position-absolute dropdown-content ">
+    <li class="luxbar-item dropdown {{ if $currentPage.HasMenuCurrent "main" . }} active {{ end }}" >
+     
+      <a href="{{ .URL }}"> {{ .Pre }}{{ .Name }}</a>
+        <ul>
         {{ range .Children }}
-        <div class="Box-body" style="">
-          <a href="{{ .RelPermalink }}">
+        <li class="luxbar-item {{ if $currentPage.IsMenuCurrent "main" . }} active {{ end }}">
+          <a href="{{ .URL }}">
             {{ .Name }}
           </a>
-        </div>
+        </li>
         {{ end }}
-      </div>
-    </div>
+        </ul>
+      </li>
+    </li>
     {{ else }}
     <!-- .URL -->
-    <a class="UnderlineNav-item {{ if $currentPage.IsMenuCurrent "main" . }}selected{{ end }}" href="{{ .URL }}">
-      {{ .Pre }}
-      <span>{{ .Name }}</span>
+    <li class="luxbar-item {{ if $currentPage.IsMenuCurrent "main" . }} active {{ end }}">
+      <a href="{{ .URL }}">
+        {{ .Pre }} {{ .Name }}
     </a>
+    </li>
+
     {{ end }}
     {{ end }}
-  </div>
-  {{ end }}
+  </ul>
+
+    </div>
 </nav>
+<div class="luxbar-fixed-dummy"></div>

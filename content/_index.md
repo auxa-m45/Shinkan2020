@@ -5,11 +5,16 @@ menu: "main"
 weight: 1
 ---
 
-## 新型コロナウイルスに対する対応
-弊サークルでは名古屋大学からの通達に従い，3月より当面の間部会等の活動の一部を制限しております．
-[http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf](http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf)
+{{< rawhtml >}}
+<div class="alert-hero">
 
-現在はLINE・Discordを用いたオンライン部会にて活動を行なっております．入部も受け付けておりますので，気になる方は是非下の連絡フォームよりご連絡ください．
+<h2> 新型コロナウイルスに対する対応</h2>
+<p>弊サークルでは名古屋大学からの通達に従い，3月より当面の間部会等の活動の一部を制限しております．</p>
+<p>参照: <a href="http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf">http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf</a></p>
+
+<p>現在はLINE・Discordを用いたオンライン部会にて活動を行なっております．入部も受け付けておりますので，気になる方は是非下の連絡フォームよりご連絡ください．</p>
+</div>
+{{< /rawhtml >}}
 
 ## 1. AARについて
 {{<imgproc src="AAR_Logo.png" title="AARのロゴ" caption=""/>}}
@@ -41,3 +46,24 @@ Anti-Aging Record (略称 AAR;エーエーアール)は，主にPCを用いて�
 
 ## 入会・連絡フォーム
 入会したい・もしくは質問がある場合は[こちらのフォーム]()および[Twitter]()，[E-mail](mailto:antiagingrecord@gmail.com)にて受け付けております
+
+{{< css.inline >}}
+<style>
+.alert-hero {
+  background: #fff;
+  border:solid 1px #d63447;
+  border-radius:5px;
+  padding: 0.8em 2em;
+  color:#d63447;
+  width: 100%;
+  height: auto;
+}
+.alert-hero p{
+  color: grey;
+}
+.alert-hero a{
+  color:#d63447;
+}
+
+</style>
+{{< /css.inline >}}

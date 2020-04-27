@@ -1,12 +1,18 @@
----
-title: "Remixコンピレーション"
-type: "top"
-menu: "main"
-weight: 4
-date : "2020-04-17"
-author: "2bnsn"
-tags: ["作品","Remixコンピ"]
----
++++
+name= "remixcompilation"
+title= "Remixコンピ"
+type= "top"
+date = "2020-04-17"
+author="2bnsn"
+tags= ["作品","Remixコンピ"]
+menu= "main"
+weight= 5
+
+[Meta]
+    pre = "<i class='fas fa-download'></i>"
++++
+
+
 
 ## Remixコンピレーション
 
