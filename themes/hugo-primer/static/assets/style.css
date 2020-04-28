@@ -26,7 +26,15 @@ h5 {
   height:100%;
   max-height:300px;
 } */
-
+.bg-lightest-indigo {
+  background-color: #e8eaf6;
+}
+.bg-grey-100 {
+  background-color:#F5F5F5;
+}
+.card-shadow{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
 figure img {
   border-radius: 5px;
 }
@@ -52,10 +60,13 @@ figure {
 }
 .fig-resizebox {
   float: right;
-  border-radius: 2px;
-  padding: 0.5em;
+  border-radius: 1px;
+  padding: 0em;
   margin: 0.5em 0 1.3em 1.4em;
-  border: solid 0.7px lightgray;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+
+  /* border: solid 0.7px lightgray; */
+    /* background-color: #3f51b5; */
 }
 .fig-resizebox img {
   border-radius: 0px;
@@ -65,8 +76,11 @@ figure {
 
 .fig-resizebox figcaption {
   text-align: center;
-  background-color: #f6f8fa;
+  background-color: #fefefe;
+  color:#757575;
   margin: 0;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
 
 .magnify {
@@ -79,6 +93,7 @@ figure {
 }
 .fig-resizebox figcaption * {
   margin: 0;
+
 }
 
 .fig-right {
@@ -92,7 +107,8 @@ figure {
 }
 .fig-right figcaption {
   text-align: center;
-  background-color: #f6f8fa;
+  background-color: #3f51b5;
+  color: white;
   margin: 0;
   padding: 0.5em;
 }
@@ -120,6 +136,7 @@ figure {
 #side {
   grid-area: side;
   width: 230px;
+  margin-left: 10px;
 }
 #footer {
   grid-area: footer;
@@ -157,8 +174,29 @@ aside {
   min-width: 160px;
   z-index: 1;
 }
-.markdown-body{
-  color:#333;
+.markdown-body {
+  color: #616161;
+}
+.lum-lightbox,
+.lum-open {
+  z-index: 1000;
+}
+.lum-close-button {
+  margin-top: 1em;
+  margin-right: 1em;
+  opacity: 0.6;
+  background-color: white;
+  border-radius: 32px;
+}
+.lum-close-button::before,
+.lum-close-button::after {
+  background-color: #333;
+}
+@media (max-width: 460px) {
+  .lum-lightbox-inner,
+  .lum-lightbox-inner img {
+    max-width: 100%;
+  }
 }
 /* TOC */
 #toc {
@@ -200,15 +238,13 @@ aside {
   line-height: 1.8em!important;
 } */
 .UnderlineNav {
-  background: #303f9f;
+  background: #0D47A1;
   color: white;
 }
 .UnderlineNav * {
   /* background: #303f9f; */
   color: white;
 }
-
-
 
 @media screen and (max-width: 1012px) {
   #holy {
@@ -222,4 +258,8 @@ aside {
   #side {
     display: none;
   }
+}
+
+.markdown-body h2 {
+  border: none;
 }

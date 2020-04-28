@@ -1,7 +1,7 @@
 <iframe
   class="embed-bc"
-  style="border: 0; width: 100%; height: 120px;"
-  data-src="https://bandcamp.com/EmbeddedPlayer/album={{ .Get "album"}}/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track={{ .Get "track"}}/transparent=true/"
+  style="border: 0; width: 100%; height: {{ with .Get "tl" }}440{{ else }}120{{end}}px;"
+  data-src="https://bandcamp.com/EmbeddedPlayer/album={{ .Get "album"}}/size=large/bgcol=ffffff/linkcol=0687f5/tracklist={{ with .Get "tl" }}true{{ else }}false{{end}}/artwork=small/track={{ .Get "track"}}/transparent=true/"
   seamless
   ><a href="{{.Get "href"}}"
     >{{.Get "tracktitle"}}</a

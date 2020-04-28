@@ -21,7 +21,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 500;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 .luxbar-fixed-dummy{
@@ -32,7 +32,7 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 500;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
@@ -294,23 +294,23 @@
 
 /******* default material-indigo *******/
 .luxbar-menu-material-indigo{
-  background-color: #3F51B5;
+  background-color: #37474F;
   border: 0px;
   color: #fff;
 }
 .luxbar-menu-material-indigo .dropdown ul {
-    background-color: #303F9F;
+    background-color: #263238;
   border: 0px;
   color: #fff;
 }
 .luxbar-menu-material-indigo .luxbar-item:hover {
-  background-color:#5C6BC0;
+  background-color:#546E7A;
   /* border-bottom: solid 3px #FF9100; */
 }
 .luxbar-menu-material-indigo .active
 {
-  background-color: #5C6BC0;
-  border-bottom: solid 3px #FF9100;
+  background-color: #00B8D4;
+  /* border-bottom: solid 3px #FF9100; */
 }
 .luxbar-menu-material-indigo .luxbar-hamburger span,
 .luxbar-menu-material-indigo .luxbar-hamburger span::before,
