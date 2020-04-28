@@ -1,6 +1,7 @@
-baseURL = "https://gohugo.io/"
+BaseURL = "https://aarshinkan2020.netlify.app/"
+
 author = "Anti-Aging Record"
-paginate = 3
+paginate = 6
 languageCode = "ja"
 DefaultContentLanguage = "ja"
 enableInlineShortcodes = true
@@ -40,11 +41,13 @@ categories = "categories"
         name = "活動紹介"
         pre = "<i class='fas fa-info-circle'></i>"
         url = "/activity/"
+        weight=3
 
     [[menu.main]]
         identifier = "remixcompilation"
+        pre = "<i class='fas fa-download'></i>"
         name = "Remixコンピ"
-        url = "/remixcompilation/"
+        url = "/remixcompilation2020/"
 
     [[menu.main]]
         identifier = "member"
@@ -54,16 +57,25 @@ categories = "categories"
 
     [[menu.main]]
         identifier = "kouza"
+        pre = "🔰"
         name = "初めてのDTM"
         url = "/kouza/"
         hasChildren = true
+                
+    [[menu.main]]
+        parent = "kouza"
+        name = "DTM講座記事一覧"
+        url = "/kouza/"
+        weight=20
 
     [[menu.main]]
         parent = "kouza"
         name = "DAWについて"
         url = "/kouza/dawintroduction"
+        weight=22
 
     [[menu.main]]
         parent = "kouza"
         name = "DTMについて"
         url = "/kouza/dtmintroduction"
+        weight=21

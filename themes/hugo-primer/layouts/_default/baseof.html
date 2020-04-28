@@ -66,17 +66,17 @@
     <link rel="stylesheet" href="{{ `assets/style.css` | relURL }}" />
   </head>
 
-  <body class="bg-gray">
-    <div id="holy" class="container-lg bg-white h-100">
+  <body class="bg-grey-100 ">
+    <div id="holy" class="container-lg  h-100 ">
       <div id="header" class="px-1 bg-white">
         {{ partial "header.html" . }}
       </div>
 
-      <div role="main" id="main" class="holy-main markdown-body px-4 bg-white">
+      <div role="main" id="main" class="holy-main markdown-body px-4 bg-white card-shadow">
         {{ block "main" . }} {{ end }}
       </div>
 
-      <div id="side" class="pr-1 bg-white">
+      <div id="side" class="pr-1 ">
         <aside class="pr-3">
           {{ block "side" . }}
           <div id="toc" class="mb-3"> </div>

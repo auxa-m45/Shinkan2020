@@ -6,11 +6,11 @@ weight: 1
 ---
 
 {{< rawhtml >}}
-<div class="alert-hero">
+<div class="alert-hero card-shadow">
 
 <h2> 新型コロナウイルスに対する対応</h2>
 <p>弊サークルでは名古屋大学からの通達に従い，3月より当面の間部会等の活動の一部を制限しております．</p>
-<p>参照: <a href="http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf">http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf</a></p>
+<p>参照: <a class="card-shadow" href="http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf">http://www.nagoya-u.ac.jp/info/upload_images/20200407_jimu02.pdf</a></p>
 
 <p>現在はLINE・Discordを用いたオンライン部会にて活動を行なっております．入部も受け付けておりますので，気になる方は是非下の連絡フォームよりご連絡ください．</p>
 </div>
@@ -50,19 +50,29 @@ Anti-Aging Record (略称 AAR;エーエーアール)は，主にPCを用いて�
 {{< css.inline >}}
 <style>
 .alert-hero {
-  background: #fff;
-  border:solid 1px #d63447;
-  border-radius:5px;
+  background: #E57373;
+  /* border:solid 1px #d63447; */
+  /* border-radius:5px; */
   padding: 0.8em 2em;
-  color:#d63447;
+  color:#fff;
   width: 100%;
   height: auto;
+  
 }
 .alert-hero p{
-  color: grey;
+  color: #fff;
 }
 .alert-hero a{
-  color:#d63447;
+  padding: 0.5em;
+  background-color:#fff;
+  color:#E57373;
+  transition: 0.6s ease;
+}
+.alert-hero a:hover{
+  text-decoration: none;
+  background-color:#eee;
+  color:#E57373;
+  transition: 0.6s ease;
 }
 
 </style>
