@@ -37,6 +37,8 @@ tags = [
 - Standard  53800円
 - Suite     90800円
 
+{{<imgproc src="imgs/ableton_logo.png" title="ロゴ" caption=""/>}}
+
 **備考**
 
 - 90日間Suiteを無料体験できます！
@@ -48,7 +50,7 @@ tags = [
 - Windows 64-bit
 - mac OS X 64-bit
 
-※ユーザーの意見は **[こちら]({{<relref "dawintroduction_Ableton.md" >}})**
+※ユーザーの意見は **[こちら](daw_ableton)**
 
 
 ### Cakewalk  
