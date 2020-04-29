@@ -18,6 +18,7 @@ googleAnalytics = ""
 disqusShortname=""
 copyright = "&copy;Anti-Aging Record 2009-2020"
 sectionPagesMenu = "main"
+relativeURLs = true
 
 [params]
 description = "Anti-Aging Record 2020新歓特設サイト"
