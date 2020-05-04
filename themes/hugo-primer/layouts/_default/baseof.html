@@ -4,6 +4,7 @@
     {{ if not .Site.BuildDrafts }}
     {{ template "_internal/google_analytics_async.html" . }} {{ end }}
     <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="jp">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>
       {{ block "title" . }} {{ .Site.Title }} {{ end }}

@@ -1,11 +1,12 @@
 +++
 author = "Beqqor"
-title = "Ableton Liveの詳細"
+title = "[DAW] Ableton Liveについて"
 date = "2020-04-25"
 description = "Ableton Liveの紹介です。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 4
 +++
 ## はじめに
 

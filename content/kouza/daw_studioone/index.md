@@ -1,11 +1,12 @@
 +++
 author = "Beqqor"
-title = "Studio Oneについて"
+title = "[DAW] Studio Oneについて"
 date = "2020-04-25"
 description = "Studio Oneの紹介です。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 4
 +++
 ## はじめに
 
