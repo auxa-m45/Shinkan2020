@@ -1,11 +1,12 @@
 +++
 author = "Beqqor"
-title = "Cubaseについて"
+title = "[DAW] Cubaseについて"
 date = "2020-04-25"
 description = "Cubaseの紹介です。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 4
 +++
 ## はじめに
 

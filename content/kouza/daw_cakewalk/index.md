@@ -1,11 +1,12 @@
 +++
 author = "Beqqor"
-title = "Cakewalkについて"
+title = "[DAW] Cakewalkについて"
 date = "2020-04-25"
 description = "Cakewalkの紹介です。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 4
 +++
 ## はじめに
 
@@ -14,7 +15,7 @@ tags = [
 
 ### Cakewalk  
 [公式サイトはこちら](https://www.bandlab.com/products/cakewalk)
-
+{{<imgproc src="cakewalk-logotype.jpg" title="Cakewalk by bandlab" caption=""/>}}
 **価格**
 - 0円
 

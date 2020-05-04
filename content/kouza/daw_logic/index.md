@@ -1,11 +1,12 @@
 +++
 author = "Beqqor"
-title = "Logicについて"
+title = "[DAW] Logicについて"
 date = "2020-04-25"
 description = "Logicの紹介です。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 4
 +++
 ## はじめに
 

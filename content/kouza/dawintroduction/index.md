@@ -1,11 +1,12 @@
 +++
 author = "北村緑"
-title = "DAWについて"
+title = "1. DAWについて"
 date = "2020-04-15"
 description = "このページではDTMで使うソフト，DAWについての紹介をしていこうと思います。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 1
 +++
 
 ## はじめに
@@ -23,11 +24,15 @@ tags = [
 - Logic Pro X
 - Studio One(アルファベット順)
 
-　DAWごとに価格帯と対応OS、ユーザーの意見をまとめてみたので、ぜひ参考にしてみてください。
+　DAWごとに価格帯と対応OS、ユーザーの感想や画面などの詳細をまとめてみたので、ぜひ参考にしてみてください。
 
-### Ableton Live
+---
+
+## Ableton Live
 
 - [公式サイトはこちら](https://www.ableton.com/ja/live/)
+
+{{<imgproc src="imgs/ableton_logo.png" title="Ableton Live" caption=""/>}}
 
 **価格**  
 
@@ -37,7 +42,6 @@ tags = [
 - Standard  53800円
 - Suite     90800円
 
-{{<imgproc src="imgs/ableton_logo.png" title="ロゴ" caption=""/>}}
 
 **備考**
 
@@ -50,24 +54,32 @@ tags = [
 - Windows 64-bit
 - mac OS X 64-bit
 
-※ユーザーの意見は **[こちら](daw_ableton)**
+※ユーザーの感想や画面などの詳細は **[こちら](daw_ableton)**
 
+---
 
-### Cakewalk  
+## Cakewalk  
 [公式サイトはこちら](https://www.bandlab.com/products/cakewalk)
+
+{{<imgproc src="imgs/cakewalk-logotype.jpg" title="Cakewalk by bandlab" caption=""/>}}
 
 **価格**
 - 0円
+- 
+
 
 **対応OS**
 
 - Windows 7以降 64-bit
 
-※ユーザーの意見は **[こちら]({{<relref "dawintroduction_Cakewalk.md" >}})**
+※ユーザーの感想や画面などの詳細は **[こちら](daw_cakewalk)**
 
+---
 
-### Cubase    
+## Cubase    
 [公式サイトはこちら](https://new.steinberg.net/ja/cubase/)
+
+{{<imgproc src="imgs/Cubase_logo.jpg" title="Cubase" caption=""/>}}
 
 **価格**
 
@@ -91,11 +103,14 @@ tags = [
 - Windows 10 (ver. 1809 / ver. 1903) 64-bit
 - macOS Mojave (10.14) / Catalina (10.15)
 
-※ユーザーの意見は **[こちら]({{<relref "dawintroduction_Cubase.md" >}})**
+※ユーザーの感想や画面などの詳細は **[こちら](daw_cubase)**
 
+---
 
-### FL Studio  
+## FL Studio  
 [公式サイトはこちら](https://www.image-line.com/flstudio/)
+
+{{<imgproc src="imgs/fl_logo.jpg" title="FL Studio" caption=""/>}}
 
 **価格**   
 
@@ -109,6 +124,7 @@ tags = [
 **備考**
 
 - 体験版あり
+- バージョンのアップデートが永久無料
 - 一部DAWとのクロスグレードでの購入可(他のDAWをすでに持っている場合安く購入できます)
 
 **対応OS**
@@ -116,11 +132,14 @@ tags = [
 - Windows 8.1, 10以降
 - macOS   10.13.6以降
 
-※ユーザーの意見は **[こちら]({{<relref "dawintroduction_FLStudio.md" >}})**
+※ユーザーの感想や画面などの詳細は **[こちら](daw_fl)**
 
+---
 
-### Logic Pro X  
+## Logic Pro X  
 [公式サイトはこちら](https://www.apple.com/jp/logic-pro/)
+
+{{<imgproc src="imgs/LogicProX.png" title="Logic Pro X" caption=""/>}}
 
 **価格**
 - 24000円
@@ -134,9 +153,9 @@ tags = [
 
 - macOS 10.13.6以降
 
-※ユーザーの意見は **[こちら]({{<relref "dawintroduction_Logic.md" >}})**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "daw_logic" >}})**
 
-#### GarageBand
+### GarageBand
 
 **価格**  
 - 0円(AppleのPC・スマートフォンの標準アプリケーション)
@@ -145,9 +164,12 @@ tags = [
 - 実質Logicの機能制限版。
 - 初期音源が高品質。Macユーザーの初めの一歩として優秀。
 
+---
 
-### Studio One  
+## Studio One  
 [公式サイトはこちら](https://www.mi7.co.jp/products/presonus/studioone/)
+
+{{<imgproc src="imgs/studioone.png" title="Studio One" caption=""/>}}
 
 **価格**
 
@@ -169,7 +191,9 @@ tags = [
 - macOS 10.11以降(64-bit)
 - Windows 7（SP1 + プラットフォームアップデート）、Windows 8.1またはWindows 10(64-bit)
 
-※ユーザーの意見は **[こちら]({{<relref "dawintroduction_StudioOne.md" >}})**
+※ユーザーの感想や画面などの詳細は **[こちら](daw_studioone)**
+
+---
 
 
 ## 注釈

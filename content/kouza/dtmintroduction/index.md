@@ -1,11 +1,12 @@
 +++
 author = ["acqua pazza", "北村緑"]
-title = "DTMについて"
-date = "2020-04-15"
+title = "0. DTMについて"
+date = "2020-04-16"
 description = "このページではDTMとは何かの紹介をしていきます。"
 tags = [
     "DTM講座", "DTM",
 ]
+weight = 1
 +++
 
 ## はじめに

@@ -1,11 +1,12 @@
 +++
 author = "Beqqor"
-title = "FL Studioについて"
+title = "[DAW] FL Studioについて"
 date = "2020-04-25"
 description = "FL Studioの紹介です。"
 tags = [
     "DTM講座", "DAW", "DTM",
 ]
+weight = 4
 +++
 ### はじめに
 
