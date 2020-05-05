@@ -54,7 +54,7 @@ weight = 1
 - Windows 64-bit
 - mac OS X 64-bit
 
-※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_ableton">}})**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_ableton/index.md">}})**
 
 ---
 
