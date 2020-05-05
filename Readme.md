@@ -42,3 +42,12 @@ hugo serve -D
 
 #### 3. 見てみる
 たぶん[localhost:1313](http://localhost:1313)をブラウザで開くと見られるようになっているはず．ちなみにエディタでファイルをいじって保存すると自動的に反映されます．すごいね
+
+### 5/6 追加(naya-sync)
+忘れないように勝手ながら…
+ブランチで作業
+```
+git checkout (自分のブランチ)
+git fetch
+git merge origin/master
+```
