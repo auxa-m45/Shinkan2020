@@ -65,14 +65,12 @@ weight = 1
 
 **価格**
 - 0円
--
-
 
 **対応OS**
 
 - Windows 7以降 64-bit
 
-※ユーザーの感想や画面などの詳細は **[こちら](daw_cakewalk)**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_cakewalk/index.md">}})**
 
 ---
 
@@ -103,7 +101,7 @@ weight = 1
 - Windows 10 (ver. 1809 / ver. 1903) 64-bit
 - macOS Mojave (10.14) / Catalina (10.15)
 
-※ユーザーの感想や画面などの詳細は **[こちら](daw_cubase)**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_cubase/index.md">}})**
 
 ---
 
@@ -132,7 +130,7 @@ weight = 1
 - Windows 8.1, 10以降
 - macOS   10.13.6以降
 
-※ユーザーの感想や画面などの詳細は **[こちら](daw_fl)**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_fl/index.md">}})**
 
 ---
 
@@ -153,7 +151,7 @@ weight = 1
 
 - macOS 10.13.6以降
 
-※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "daw_logic" >}})**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_logic/index.md">}})**
 
 ### GarageBand
 
@@ -191,7 +189,7 @@ weight = 1
 - macOS 10.11以降(64-bit)
 - Windows 7（SP1 + プラットフォームアップデート）、Windows 8.1またはWindows 10(64-bit)
 
-※ユーザーの感想や画面などの詳細は **[こちら](daw_studioone)**
+※ユーザーの感想や画面などの詳細は **[こちら]({{<relref "/content/kouza/daw_studioone/index.md">}})**
 
 ---
 
