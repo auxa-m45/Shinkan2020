@@ -26,7 +26,7 @@ Anti-Aging Record (略称 AAR;エーエーアール)は，主にPCを用いて�
 ### 作曲
 <!-- {{< figure class="h-300px fig-block" src="dtm.png" title="" caption="">}} -->
 {{<imgproc src="dtm.png" title="" caption=""/>}}
-  ポップスから音ゲー曲，民族調の曲など幅広いジャンルの音楽を製作しております．詳しくはDTM講座をご覧ください（ぱっつあんさんが書いておられるDTM入門講座のリンク）．
+  ポップスから音ゲー曲，民族調の曲など幅広いジャンルの音楽を製作しております．詳しくはDTM講座をご覧ください（https://aarshinkan2020.netlify.app/kouza/）．
 
 ### CD制作・販売
 <!-- {{< figure class="h-300px fig-block"  src="CD.jpeg" title="M3でのCD販売" caption="">}} -->
