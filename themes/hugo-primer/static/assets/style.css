@@ -226,13 +226,19 @@ aside {
 }
 
 .avatar-img {
-  margin: 20px;
+  margin: 10px;
   float: left;
   border-radius: 50%;
-  width: 75px;
-  height: 75px;
+  width: 90px;
+  height: 90px;
   background-color: azure;
 }
+
+.fbox-6{
+  display: flex;
+}
+
+
 /* 
 .markdown-body p{
   line-height: 1.8em!important;
@@ -262,4 +268,22 @@ aside {
 
 .markdown-body h2 {
   border: none;
+}
+
+
+.snsicon{transition: color 0.2s;}
+.snsicon:hover { color:#cae8d5;}
+.snsicon{font-size: 18pt;}
+
+.breadcrumb {
+  margin-top:48px;
+  padding-left: 0!important;
+}
+.breadcrumb li {
+  display: inline;
+  list-style: none;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: '>';
+  padding: 0 0.5em;
 }

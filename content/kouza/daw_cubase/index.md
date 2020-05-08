@@ -1,5 +1,5 @@
 +++
-author = "Beqqor"
+authors = ["Beqqor"]
 title = "[DAW] Cubaseについて"
 date = "2020-04-25"
 description = "Cubaseの紹介です。"

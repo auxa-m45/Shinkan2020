@@ -3,7 +3,7 @@ name: "activity"
 title: "AARの活動について"
 type: "top"
 date : "2020-04-14"
-author: "Zitrone"
+authors: ["Zitrone"]
 tags: ["活動紹介"]
 ---
 

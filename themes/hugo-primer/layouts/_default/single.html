@@ -15,6 +15,18 @@
 
     {{ if ( default true .Params.showDate ) }}
     <div class="float-md-right">
+      <span style="margin-right:0.7em;">
+        {{ if .Params.dispauthorname }}
+          Author: {{.Params.dispauthorname}}
+        {{ else }}
+          {{if .Params.authors}}
+            Author: 
+              {{- range .Params.authors }}
+                {{ . }}
+              {{- end }}
+          {{ end }}
+        {{ end }}
+      </span>
       <span title="Lastmod: {{ .Lastmod.Format "2006-01-02" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
         {{ if ne .Lastmod .PublishDate }}
           Lastmod: {{ dateFormat ( default "2006-01-02" .Site.Params.dateFormat ) .Lastmod }}
@@ -31,12 +43,19 @@
   <section class="pb-6 mb-3 border-bottom">
     {{ .Content }}
   </section>
+  <section class="pb-6 mb-3 border-bottom">
+    {{ .Render "author-figure"}}
+  </section>
+        <ol style="margin-top: 24px!important;" class="breadcrumb">
+  {{- template "breadcrumb" (dict "node" . "start" .) }}
+</ol>
   <section>
     {{ if (default true .Params.comments) }}
       {{ template "_internal/disqus.html" . }}
     {{ end }}
   </section>
 </article>
+
 {{ end }}
 
 
@@ -77,6 +96,7 @@
     {{ end }}
   {{ else }}
     <div>
+
       <!-- Do not share -->
     </div>
   {{ end }}

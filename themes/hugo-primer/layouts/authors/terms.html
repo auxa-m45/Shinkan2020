@@ -1,6 +1,7 @@
 {{ define "main" }}
   <h1 style="margin-top: 24px!important;">Authors</h1>
   {{ range .Data.Pages }}
-    {{ partial "author-figure" . }}
+    {{ partial "author-term" . }}
   {{ end }}
+  
 {{ end }}

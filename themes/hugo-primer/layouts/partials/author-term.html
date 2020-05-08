@@ -1,0 +1,41 @@
+<figure class="author-card">
+  <div class="card-shadow px-5 pb-6 pt-3 mb-2 ">
+    <div class="Subhead mb-2 fbox-4">
+      <img class="avatar-img  px-2" src="{{ .Params.avatar }}" alt="" />
+      <div class="mx-2 mt-1">
+        <div class="h4 mt-4 mb-1">
+        <a style="font-size: 1.8em;" href="{{ .Permalink }}">
+          {{ if .Params.dispauthorname }}
+            {{.Params.dispauthorname}}
+          {{ else }}
+            {{if .Params.name }}
+              {{ .Params.name }} 
+            {{end }}
+          {{ end }}
+          
+        </a>
+        <a class="snsicon" href="https://twitter.com/{{ .Params.twitter }}"><i class="fab fa-twitter-square"></i></a>
+      </div>
+      </div>
+
+    </div>
+    <div class="text-gray ">
+      <p>
+        {{ .Summary }}
+      </p>
+      <a
+        style="margin-top:0;float: right;"
+        href="{{ .Permalink }}"
+        class="block-link"
+      >
+        More about {{ if .Params.dispauthorname }}
+            {{.Params.dispauthorname}}
+          {{ else }}
+            {{if .Params.name }}
+              {{ .Params.name }} 
+            {{end }}
+          {{ end }}
+      </a>
+    </div>
+  </div>
+</figure>
