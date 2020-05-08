@@ -1,5 +1,5 @@
 +++
-author = "Beqqor"
+authors = ["Beqqor"]
 title = "[DAW] Ableton Liveについて"
 date = "2020-04-25"
 description = "Ableton Liveの紹介です。"

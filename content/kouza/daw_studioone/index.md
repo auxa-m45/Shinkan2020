@@ -1,5 +1,5 @@
 +++
-author = "Beqqor"
+authors = ["Beqqor"]
 title = "[DAW] Studio Oneについて"
 date = "2020-04-25"
 description = "Studio Oneの紹介です。"

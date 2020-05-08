@@ -1,5 +1,5 @@
 +++
-author = "Beqqor"
+authors = ["Beqqor"]
 title = "[DAW] Cakewalkについて"
 date = "2020-04-25"
 description = "Cakewalkの紹介です。"

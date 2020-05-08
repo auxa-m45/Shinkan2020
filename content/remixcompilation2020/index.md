@@ -3,7 +3,7 @@ name= "remixcompilation"
 title= "Remixコンピ"
 type= "top"
 date = "2020-04-17"
-author="2bnsn"
+authors= ["2bnsn"]
 tags= ["作品","Remixコンピ"]
 
 +++

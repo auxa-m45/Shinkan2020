@@ -4,7 +4,8 @@ name: "member"
 type: "top"
 weight: 4
 date : "2020-04-12"
-author: "じお(GEO)"
+dispauthorname: "じお(ＧＥＯ)"
+authors: ["geo"]
 tags: ["メンバー"]
 ---
 
@@ -14,19 +15,25 @@ tags: ["メンバー"]
 
 ## 代表
 
-### Beqqor(き～ちゃん) {{% twicon mrcl_drm0224%}}  
+### Beqqor(き～ちゃん) 
+
+Twitter : {{< twicon mrcl_drm0224>}}  
 
  [Awesomacaroon!!](https://antiagingrec.bandcamp.com/track/awesomacaroon)
 {{<bandcamp album="4101696388" track="3888623764" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle="Awesomacaroon!!">}}
 
 ## 副代表
 
-### 2bnsn {{% twicon 2bnsn%}}  
+### 2bnsn 
 
- [yukinomachi](https://antiagingrec.bandcamp.com/track/yukinomachi)http://antiagingrec.bandcamp.com/album
+Twitter : {{< twicon 2bnsn>}}  
+
+ [yukinomachi](https://antiagingrec.bandcamp.com/track/yukinomachi)
 {{<bandcamp album="1417168045" track="1110710900" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-18" tracktitle="yukinomachi">}}
 
-### じお(GEO) {{% twicon geoscape_9%}}  
+### じお(GEO) 
+
+Twitter : {{< twicon geoscape_9>}}  
 
  [Night Drive](https://antiagingrec.bandcamp.com/track/night-drive)
  {{<bandcamp album="4177004001" track="900890243" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-17" tracktitle="Night Drive">}}
@@ -34,50 +41,68 @@ tags: ["メンバー"]
  
 ## 会計 
 
-### acqua pazza {{% twicon pattuxan_acqua%}}  
+### acqua pazza 
+
+Twitter : {{< twicon pattuxan_acqua>}}  
 
  [Everlastong Emotion](https://antiagingrec.bandcamp.com/track/Everlasting-Emotion) 
 {{<bandcamp album="1417168045" track="2104415913" href="/anti-aging-record-vol-18" tracktitle="Everlasting Emotion">}} 
 
 ## メンバー
 
-### Akito {{% twicon DJ__Akito%}}  
+### Akito 
+
+Twitter : {{< twicon DJ__Akito>}}  
 
  [song](URL)
 {{<soundcloud 786873895>}}
 
 
-### as key_ {{% twicon yuki19990110%}}  
+### as key_ 
+
+Twitter : {{< twicon yuki19990110>}}  
 
  [brioche](https://antiagingrec.bandcamp.com/track/brioche-2)
 {{<bandcamp album="4101696388" track="3018294981" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle="brioche">}}
 
-### Bowne {{% twicon hone_aka_bowne%}}  
+### Bowne 
+
+Twitter : {{< twicon hone_aka_bowne>}}  
 
  [Naga](https://antiagingrec.bandcamp.com/track/naga)
  {{<bandcamp album="1417168045" track="3251485584" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-18" tracktitle="Naga">}}
  
-### ColorAge {{% twicon ColorAge_AAR%}}  
+### ColorAge 
+
+Twitter : {{< twicon ColorAge_AAR>}}  
 
  [大好きな君へ​(​feat​.​初音ミク)](https://antiagingrec.bandcamp.com/track/feat)
  {{<bandcamp album="4101696388" track="3666069202" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle=" ">}}
 
-### CPL {{% twicon CPL_otoya%}}  
+### CPL 
+
+Twitter : {{< twicon CPL_otoya>}}  
 
  [Abandoned Tea Party](https://antiagingrec.bandcamp.com/track/abandoned-tea-party)
  {{<bandcamp album="4101696388" track="2302843939" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle="大好きな君へ​(​feat​.​初音ミク)">}}
 
-### kuvotas {{% twicon KUVOTAS%}}  
+### kuvotas 
+
+Twitter : {{< twicon KUVOTAS>}}  
 
  [Ultimate Chocolate Sundae](https://antiagingrec.bandcamp.com/track/ultimate-chocolate-sundae)
  {{<bandcamp album="4101696388" track="644024926/" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle="Ultimate Chocolate Sundae">}}
 
-### hiba {{% twicon koike_yuniko%}}  
+### hiba 
+
+Twitter : {{< twicon koike_yuniko>}}  
 
  [Korobeiniki Frenchcore RMX](https://antiagingrec.bandcamp.com/track/korobeiniki-frenchcore-rmx)
  {{<bandcamp album="4177004001" track="1364787918" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-17" tracktitle="Korobeiniki Frenchcore RMX">}}
 
-### Mitsu*mon {{% twicon mitsu32mon%}}  
+### Mitsu*mon 
+
+Twitter : {{< twicon mitsu32mon>}}  
 
  [White Mimosa](https://antiagingrec.bandcamp.com/track/white-mimosa)
  {{<bandcamp album="4039323283" track="3267759035" href="http://antiagingrec.bandcamp.com/album/cocktails" tracktitle="White Mimosa">}}
@@ -86,16 +111,22 @@ tags: ["メンバー"]
  [вдругcanon](https://antiagingrec.bandcamp.com/track/canon)
  {{<bandcamp album="2930736149" track="3325615210" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="вдругcanon">}}
 
-### Naya {{% twicon Naya_sync%}}  
+### Naya 
+
+Twitter : {{< twicon Naya_sync>}}  
 
  [Snow Gift](https://antiagingrec.bandcamp.com/track/snow-gift)
  {{<bandcamp album="1417168045" track="2707353220" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-18" tracktitle="Snow Gift">}}
 
-### Pekchy {{% twicon _pekchy_%}}  
+### Pekchy 
+
+Twitter : {{< twicon _pekchy_>}}  
 
  [Anti-Aging Record Vol.15](http://aar.lolipop.jp/m3-2018f.html)・[Anti-Aging Record Vol.16](https://antiagingrec.bandcamp.com/album/anti-aging-record-vol-16)・[Planetarium](https://antiagingrec.bandcamp.com/album/planetarium) ジャケットイラスト
 
-### Riku(dotη) {{% twicon dot_h883%}}  
+### Riku(dotη) 
+
+Twitter : {{< twicon dot_h883>}}  
 
  [Affection](https://antiagingrec.bandcamp.com/track/affection)
  {{<bandcamp album="1417168045" track="3973498610" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-18" tracktitle="Affection">}}
@@ -104,59 +135,81 @@ tags: ["メンバー"]
  [俺なりのカノン](https://antiagingrec.bandcamp.com/track/--9)
  {{<bandcamp album="2930736149" track="1181785156" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="俺なりのカノン">}}
 
-### R-ucky {{% twicon rucky829%}}  
+### R-ucky 
+
+Twitter : {{< twicon rucky829>}}  
 
  [THE MARS](https://antiagingrec.bandcamp.com/track/the-mars)
  {{<bandcamp album="2213291021" track="1944620109" href="http://antiagingrec.bandcamp.com/album/planetarium" tracktitle="THE MARS">}}
 
-### sawapy {{% twicon sawapy_piano%}}  
+### sawapy 
+
+Twitter : {{< twicon sawapy_piano>}}  
 
  [金管アンサンブルのためのワルツ](https://antiagingrec.bandcamp.com/track/--6)
  {{<bandcamp album="2930736149" track="4085631069" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="金管アンサンブルのためのワルツ">}}
 
-### Shapla {{% twicon shap1a%}}   
+### Shapla 
+
+Twitter : {{< twicon shap1a>}}   
  [空即是色](https://antiagingrec.bandcamp.com/track/--11)
  {{<bandcamp album="2213291021" track="2468654683" href="http://antiagingrec.bandcamp.com/album/planetarium" tracktitle="空即是色">}}
 
-### Teamil9 {{% twicon teamil9627%}}  
+### Teamil9 
+
+Twitter : {{< twicon teamil9627>}}  
 
  [Canon -short march-](https://antiagingrec.bandcamp.com/track/canon-short-march)
  {{<bandcamp album="2930736149" track="619777259/" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="Canon -short march-">}}
 
-### Tock {{% twicon Tock109muziq%}}  
+### Tock 
+
+Twitter : {{< twicon Tock109muziq>}}  
 
  [C​.​C. 桜](https://antiagingrec.bandcamp.com/track/c-c)
  {{<bandcamp album="4039323283" track="1217600246" href="http://antiagingrec.bandcamp.com/album/cocktails" tracktitle="C​.​C. 桜">}}
 
-### tomatoism {{% twicon tomatoism%}}  
+### tomatoism 
+
+Twitter : {{< twicon tomatoism>}}  
 
  [爆発ポップコーンの皆さま](https://antiagingrec.bandcamp.com/track/-)
  {{<bandcamp album="4047585227" track="1079099356" href="http://antiagingrec.bandcamp.com/album/vol-155-hardcore-compilation" tracktitle="爆発ポップコーンの皆さま">}}
 
-### ViT4L {{% twicon ViT4LDTM%}}  
+### ViT4L 
+
+Twitter : {{< twicon ViT4LDTM>}}  
 
  [monochromatized](https://antiagingrec.bandcamp.com/track/monochromatized)
  {{<bandcamp album="1417168045" track="1985702066" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-18" tracktitle="monochromatized">}}
 
-### うさぎマン(虚無子) {{% twicon unbornrabbit%}}  
+### うさぎマン(虚無子) 
+
+Twitter : {{< twicon unbornrabbit>}}  
 
  [ジェリーフィッシュ](https://antiagingrec.bandcamp.com/track/--14)
  {{<bandcamp album="1417168045" track="1793355690" href="http://antiagingrec.bandcamp.com/album/anti-aging-record-vol-18" tracktitle="ジェリーフィッシュ">}}
  
-### なそ {{% twicon nazo3_%}}  
+### なそ 
+
+Twitter : {{< twicon nazo3_>}}  
 
  [カノン体験版](https://antiagingrec.bandcamp.com/track/--8)
  {{<bandcamp album="2930736149" track="147131222/" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="カノン体験版">}}
  
 
-### ゆーた {{% twicon yuta_game_music%}}  
+### ゆーた 
+
+Twitter : {{< twicon yuta_game_music>}}  
  宿
 
 ### 烏丸
  [hiphop kanon](https://antiagingrec.bandcamp.com/track/hiphop-kanon)
  {{<bandcamp album="2930736149" track="2063480211" href="http://antiagingrec.bandcamp.com/album/canon-remix-compilation" tracktitle="hiphop kanon">}}
 
-### 北村 緑 {{% twicon midori_nv%}}  
+### 北村 緑 
+
+Twitter : {{< twicon midori_nv>}}  
 
  [知育菓子](https://antiagingrec.bandcamp.com/track/--12)
  {{<bandcamp album="4101696388" track="750335809/" href="http://antiagingrec.bandcamp.com/album/assorted-box" tracktitle="知育菓子">}}

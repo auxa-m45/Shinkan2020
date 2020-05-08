@@ -1,0 +1,22 @@
+{{ define "main" }}
+<ol style="margin-top: 24px!important;" class="breadcrumb">
+  {{- template "breadcrumb" (dict "node" . "start" .) }}
+</ol>
+<h1>
+  {{ if .Params.dispauthorname }}
+    {{.Params.dispauthorname}}
+  {{ else }}
+    {{if.Params.name }} {{ .Params.name }} {{ end }} {{ end }}</h1>
+
+<h2>Bio</h2>
+
+{{- with .Params.avatar }}
+<figure class="fig-resizebox" style="width: 200px;">
+  <a href="{{ . }}" class="luminous" style="text-decoration: none;">
+    <img src="{{ . }}" width="width: 200px;" height="width: 200px;" />
+  </a>
+</figure>
+{{ end }} {{ .Content }}
+
+<h2>Articles</h2>
+{{ range .Data.Pages }} {{ .Render "article" }} {{ end }} {{ end }}
