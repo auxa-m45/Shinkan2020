@@ -47,7 +47,7 @@ Anti-Aging Record (略称 AAR;エーエーアール)は、主にPCを用いて�
 
 部会では、不定期で部員による講座が開催されます。年度始めには新入生に向けた初心者講座を実施しています。また、スキルアップのためのノウハウを共有する講座や、特定のジャンルの完成を目指す講座も実施しており、無料のコンピレーションアルバムの製作を通して講座で習った内容を深めています。初心者向け講座の記事はこちらから読むことができます
 {{< rawhtml >}}
-<a href="{{<relref "/content/kouza/_index.md">}}" class="btn-mg" style="text-align: center; width:20em;"><span>🔰 初心者向け講座のページへ</span></a>
+<a href="{{<relref "/kouza/_index.md">}}" class="btn-mg" style="text-align: center; width:20em;"><span>🔰 初心者向け講座のページへ</span></a>
 {{< /rawhtml >}}
 
 このほか、部員専用のファイル共有サーバでは、ハードコア講座・DJ講座・マスタリング講座など、これまで開講されてきたさまざまな講座の資料を見ることができます！
@@ -58,7 +58,7 @@ Anti-Aging Record (略称 AAR;エーエーアール)は、主にPCを用いて�
 {{<imgproc src="aar_remixcompilation.jpg" title="Remix Compilation" caption="JACKET"/>}}
 2020年のAnti-Aging Recordが送るコンピレーションアルバム。今回は、これまでAARがリリースしてきたCD・フリーコンピに収録された楽曲のリミックスを収録しました。8名のコンポーザーによる楽曲の”再解釈”をご堪能ください！無料です！
 {{< rawhtml >}}
-<a href="{{<relref "/content/kouza/daw_cubase/index.md">}}" class="btn-mg" style="text-align: center; width:20em;"><span>Remix Compilationのページへ</span></a>
+<a href="{{<relref "/remixcompilation2020/index.md">}}" class="btn-mg" style="text-align: center; width:20em;"><span><i class="fas fa-download"></i> Remix Compilationのページへ</span></a>
 {{< /rawhtml >}}
 
 ## 入会・連絡フォーム

@@ -41,8 +41,8 @@ Medlyというスマホアプリを友人から紹介してもらったのがき
 いつのまにか代表にまでなってました…。打ち込める趣味があるのはとても充実しているなと感じられるので、ぜひ大学生から始めるライフワークとして作曲に取り組んでみて欲しいと思います。音楽の世界が広がりますよ！
 
 【リンク】  
-[DTM入門記事]({{<relref "/content/kouza/dtmintroduction/index.md">}})  
-[DAWについて]({{<relref "/content/kouza/dawintroduction/index.md">}})  
+[DTM入門記事]({{<relref "/kouza/dtmintroduction/index.md">}})  
+[DAWについて]({{<relref "/kouza/dawintroduction/index.md">}})  
 
 
 ### DJについて
