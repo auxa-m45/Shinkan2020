@@ -44,6 +44,13 @@ categories = "categories"
         url = "/activity/"
         weight=3
 
+        [[menu.main]]
+        identifier = "schedule"
+        name = "活動予定"
+        pre = "<i class='fas fa-calendar-alt'></i>"
+        url = "/schedule/"
+        weight =4
+
     [[menu.main]]
         identifier = "remixcompilation"
         pre = "<i class='fas fa-download'></i>"
@@ -55,6 +62,8 @@ categories = "categories"
         name = "メンバー"
         pre = "<i class='fas fa-users'></i>"
         url = "/member/"
+
+
 
     [[menu.main]]
         identifier = "kouza"

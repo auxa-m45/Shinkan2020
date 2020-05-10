@@ -7,13 +7,11 @@ authors= ["2bnsn"]
 tags= ["作品","Remixコンピ"]
 
 +++
-
+{{<youtube  41PvoWzGQrk>}}
 ## Remixコンピレーション
-
 {{<imgproc src="aar_remixcompilation.jpg" title="ジャケット(クリックで拡大)" caption=""/>}}
 
-AARから過去にリリースされた曲からメンバーが8曲をリミックスしたコンピレーションアルバムです．Bandcampから無料でダウンロードすることができます．
-
+2020年のAnti-Aging Recordが送るコンピレーションアルバム。今回は、これまでAARがリリースしてきたCD・フリーコンピに収録された楽曲のリミックスを収録しました。8名のコンポーザーによる楽曲の”再解釈”をご堪能ください！無料です！
 
 ### Tracklist & Demo
 
@@ -68,7 +66,10 @@ AARから過去にリリースされた曲からメンバーが8曲をリミッ�
 
 ### Download
 
-[リンク未確定]()
+{{< rawhtml >}}
+<a href="https://antiagingrec.bandcamp.com/album/anti-aging-record-remix-compilation" class="btn-mg" style="text-align: center; width:16em;"><span><i class="fas fa-download"></i> Download</span></a>
+{{< /rawhtml >}}
+
 
 
  {{< css.inline >}}

@@ -1,5 +1,6 @@
 +++
-author = ["acqua pazza", "北村緑"]
+dispauthorname= "北村緑, acqua pazza"
+authors = ["kitamuramidori", "acquapazza",]
 title = "0. DTMについて"
 date = "2020-04-16"
 description = "このページではDTMとは何かの紹介をしていきます。"
