@@ -8,6 +8,7 @@ tags = [
 ]
 weight = 4
 +++
+![image](cubase_screen_beqqor.png)
 ## はじめに
 
 このページでは， **Cubase** というDAWの詳細が記されています。

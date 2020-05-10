@@ -8,6 +8,7 @@ tags = [
 ]
 weight = 4
 +++
+![image](acqua_pazza_fl_double_double.png)
 ### はじめに
 
 このページでは， **FL Studio** というDAWの詳細が記されています。

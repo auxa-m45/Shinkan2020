@@ -8,6 +8,7 @@ tags = [
 ]
 weight = 4
 +++
+![image](rucky_studioone4.png)
 ## はじめに
 
 このページでは， **Studio One** というDAWの詳細が記されています。

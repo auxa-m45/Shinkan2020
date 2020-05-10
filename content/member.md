@@ -2,7 +2,7 @@
 title: "メンバー"
 name: "member"
 type: "top"
-weight: 4
+weight: 5
 date : "2020-04-12"
 dispauthorname: "じお(ＧＥＯ)"
 authors: ["geo"]

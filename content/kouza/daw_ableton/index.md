@@ -8,6 +8,8 @@ tags = [
 ]
 weight = 4
 +++
+![image](abletonlive_screen_vit4l.png)
+
 ## はじめに
 
 このページでは， **Ableton Live** というDAWの詳細が記されています。

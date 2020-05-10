@@ -8,6 +8,7 @@ tags = [
 ]
 weight = 4
 +++
+![image](2bnsn_Logic_Morning_Terrace.jpg)
 ## はじめに
 
 このページでは， **Logic** というDAWの詳細が記されています。
